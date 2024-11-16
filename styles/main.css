@@ -12,13 +12,22 @@ main .sect_00 {
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
 }
 
-main .sect_00 .intro_pc {}
+main .sect_00 .intro_pc {
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
 
 main .sect_00 .intro_pc img {
     width: 100%;
+    
 }
 
 main .sect_00 .intro_mo {
