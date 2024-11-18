@@ -1,0 +1,98 @@
+/* font - Pretendard */
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../font/Pretendard-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('../font/UbuntuMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* reset */
+html,body,* {box-sizing:border-box;}
+html,body,h1,h2,h3,h3,h4,h5,h6,
+p,em,strong,a,span,sup,sub,del,q,blockquote,code,
+ul,ol,li,dl,dt,dd,
+table,tr,td,th,thead,tbody,tfoot,
+form,fieldset,legend,input,select,option,button,label,textarea,
+header,main,footer,nav,section,article,figure,figcaption,aside,
+address,details,mark,time,video,img,summary,iframe,div {
+    margin:0; padding:0;
+    font-size:1.0rem; font-style:normal; font-weight:normal;
+    line-height:1.2; color:#333;
+    text-decoration:none;
+    font-family: 'Pretendard', sans-serif;
+}
+ul,ol {list-style:none;}
+button {cursor:pointer;}
+table,tr,td,th {border-collapse:collapse;}
+.skip {display:none;}
+/* .fa {font-family:'Font Awesome 5 Free', 'Font Awesome 5 Brands'; font-weight:600;} */
+/* form reset */
+fieldset {border:0;}
+select {outline:none; border:0; appearance:none; background:none;}
+button {border:0; cursor:pointer; background:none;}
+input {border:0; outline:none; background:none;}
