@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="shortcut icon" href="./images/favicon/naevis_favicon.png" type="image/x-icon">
     <link rel="icon" href="./images/favicon/naevis_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/gxm5sum.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./script/common.js" async></script>
     <script src="./script/main.js" async></script>
@@ -31,52 +33,58 @@
     <!-- 헤더 영역 -->
     <header>
         <h1 class="head_logo"><img src="./images/logo_gnb_naevis.png" alt="나이비스"></h1>
-        <ul class="gnb">
-            <li><a href="#profile_area">PROFILE</a></li>
-            <li><a href="#video_area">M/V</a></li>
-            <li><a href="#sns_area">SNS CONTENTS</a></li>
-            <li><a href="#visual_area">VISUALS</a></li>
-            <li><a href="#story_area">STORY</a></li>
-        </ul>
-        <ul class="head_sns">
-            <li><a target="_blank" href="https://www.youtube.com/@naevis.official"><svg width="36" height="36"
-                        viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M34.2361 9.42433C33.8451 7.95241 32.6934 6.79216 31.2299 6.39833C28.5794 5.68433 17.9473 5.68433 17.9473 5.68433C17.9473 5.68433 7.31518 5.68433 4.66318 6.39833C3.20118 6.79216 2.04943 7.95099 1.65843 9.42433C0.947266 12.0933 0.947266 17.6608 0.947266 17.6608C0.947266 17.6608 0.947266 23.2283 1.65843 25.8973C2.04943 27.3692 3.20118 28.5295 4.6646 28.9233C7.31518 29.6373 17.9473 29.6373 17.9473 29.6373C17.9473 29.6373 28.5794 29.6373 31.2314 28.9233C32.6934 28.5295 33.8451 27.3707 34.2375 25.8973C34.9473 23.2283 34.9473 17.6608 34.9473 17.6608C34.9473 17.6608 34.9473 12.0933 34.2361 9.42433ZM14.4708 22.7169V12.6047L23.3561 17.6608L14.4708 22.7169Z"
-                            fill="white"></path>
-                    </svg></a></li>
-
-            <li><a target="_blank" href="https://www.instagram.com/naevis.smtown.official/"><svg width="36" height="36"
-                        viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M17.8945 4.77744C22.1665 4.77744 22.6732 4.79344 24.3599 4.87077C26.1039 4.95078 27.8999 5.34811 29.1705 6.61877C30.4532 7.90144 30.8385 9.68011 30.9185 11.4294C30.9959 13.1161 31.0119 13.6228 31.0119 17.8948C31.0119 22.1668 30.9959 22.6734 30.9185 24.3601C30.8399 26.0948 30.4332 27.9081 29.1705 29.1708C27.8879 30.4534 26.1105 30.8388 24.3599 30.9188C22.6732 30.9961 22.1665 31.0121 17.8945 31.0121C13.6225 31.0121 13.1159 30.9961 11.4292 30.9188C9.70786 30.8401 7.87053 30.4241 6.61853 29.1708C5.34253 27.8948 4.95053 26.0988 4.87053 24.3601C4.7932 22.6734 4.7772 22.1668 4.7772 17.8948C4.7772 13.6228 4.7932 13.1161 4.87053 11.4294C4.9492 9.70144 5.35986 7.87744 6.61853 6.61877C7.89853 5.33877 9.68386 4.95078 11.4292 4.87077C13.1159 4.79344 13.6225 4.77744 17.8945 4.77744ZM17.8945 1.89478C13.5492 1.89478 13.0039 1.91344 11.2972 1.99078C8.82386 2.10411 6.36786 2.79211 4.57986 4.58011C2.7852 6.37477 2.10386 8.82544 1.99053 11.2974C1.9132 13.0041 1.89453 13.5494 1.89453 17.8948C1.89453 22.2401 1.9132 22.7854 1.99053 24.4921C2.10386 26.9628 2.79453 29.4254 4.57986 31.2094C6.3732 33.0028 8.82786 33.6854 11.2972 33.7988C13.0039 33.8761 13.5492 33.8948 17.8945 33.8948C22.2399 33.8948 22.7852 33.8761 24.4919 33.7988C26.9639 33.6854 29.4225 32.9961 31.2092 31.2094C33.0052 29.4134 33.6852 26.9641 33.7985 24.4921C33.8759 22.7854 33.8945 22.2401 33.8945 17.8948C33.8945 13.5494 33.8759 13.0041 33.7985 11.2974C33.6852 8.82411 32.9959 6.36677 31.2092 4.58011C29.4185 2.78944 26.9572 2.10278 24.4919 1.99078C22.7852 1.91344 22.2399 1.89478 17.8945 1.89478Z"
-                            fill="white"></path>
-                        <path
-                            d="M17.6896 9.47363C13.1523 9.47363 9.47363 13.1523 9.47363 17.6896C9.47363 22.227 13.1523 25.9056 17.6896 25.9056C22.227 25.9056 25.9056 22.227 25.9056 17.6896C25.9056 13.1523 22.227 9.47363 17.6896 9.47363ZM17.6896 23.023C14.7443 23.023 12.3563 20.635 12.3563 17.6896C12.3563 14.7443 14.7443 12.3563 17.6896 12.3563C20.635 12.3563 23.023 14.7443 23.023 17.6896C23.023 20.635 20.635 23.023 17.6896 23.023Z"
-                            fill="white"></path>
-                        <path
-                            d="M26.5513 11.4191C27.6117 11.4191 28.4713 10.5595 28.4713 9.4991C28.4713 8.43871 27.6117 7.5791 26.5513 7.5791C25.491 7.5791 24.6313 8.43871 24.6313 9.4991C24.6313 10.5595 25.491 11.4191 26.5513 11.4191Z"
-                            fill="white"></path>
-                    </svg></a></li>
-            <li><a target="_blank" href="https://www.facebook.com/naevis.official"><svg width="36" height="36"
-                        viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="#fff"
-                            d="M34 18c0-8.836-7.163-16-16-16C9.164 2 2 9.164 2 18c0 7.503 5.166 13.8 12.135 15.529v-10.64h-3.3V18h3.3v-2.107c0-5.446 2.465-7.97 7.811-7.97 1.014 0 2.763.2 3.479.398v4.432c-.378-.04-1.034-.06-1.849-.06-2.623 0-3.637.994-3.637 3.578V18h5.226l-.898 4.89H19.94v10.993C27.862 32.926 34.001 26.18 34.001 18H34Z">
-                        </path>
-                    </svg></a></li>
-            <li><a target="_blank" href="https://www.tiktok.com/@naevis.smtown"><svg width="36" height="36"
-                        viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M31 15.333C28.3426 15.333 25.879 14.478 23.8689 13.0254V23.5071C23.8689 28.7423 19.6362 33 14.4344 33C12.4243 33 10.5595 32.3625 9.02771 31.2799C6.59518 29.5611 5 26.7185 5 23.5071C5 18.2719 9.2327 14.013 14.4357 14.013C14.868 14.013 15.2904 14.0492 15.7066 14.1055V15.3268V19.3707C15.3041 19.2444 14.8792 19.1707 14.4357 19.1707C12.0603 19.1707 10.1272 21.1158 10.1272 23.5071C10.1272 25.1722 11.0664 26.6185 12.438 27.3448C13.0356 27.661 13.7151 27.8423 14.4369 27.8423C16.7576 27.8423 18.651 25.9847 18.738 23.6696L18.7417 3H23.8676C23.8676 3.44752 23.9111 3.88379 23.9881 4.3088C24.3497 6.27389 25.5088 7.96021 27.1152 9.014C28.2333 9.74778 29.5676 10.1765 30.9988 10.1765L31 15.333Z"
-                            fill="white"></path>
-                    </svg></a></li>
-            <li><a target="_blank" href="https://x.com/naevisSMTOWN"><svg width="36" height="36" viewBox="0 0 36 36"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M26.6267 4H31.2267L21.1769 15.4867L33 31.1171H23.7423L16.4919 21.6371L8.19545 31.1171H3.59232L14.3416 18.831L3 4H12.4921L19.0462 12.6648L26.6267 4ZM25.0121 28.3636H27.5612L11.1072 6.609H8.37205L25.0121 28.3636Z"
-                            fill="white"></path>
-                    </svg></a></li>
-        </ul>
+        <nav class="head_nav">
+            <ul class="gnb">
+                <li><a href="#profile_area">PROFILE</a></li>
+                <li><a href="#video_area">M/V</a></li>
+                <li><a href="#sns_area">SNS CONTENTS</a></li>
+                <li><a href="#visual_area">VISUALS</a></li>
+                <li><a href="#story_area">STORY</a></li>
+            </ul>
+            <ul class="head_sns">
+                <li><a target="_blank" href="https://www.youtube.com/@naevis.official"><svg width="36" height="36"
+                            viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M34.2361 9.42433C33.8451 7.95241 32.6934 6.79216 31.2299 6.39833C28.5794 5.68433 17.9473 5.68433 17.9473 5.68433C17.9473 5.68433 7.31518 5.68433 4.66318 6.39833C3.20118 6.79216 2.04943 7.95099 1.65843 9.42433C0.947266 12.0933 0.947266 17.6608 0.947266 17.6608C0.947266 17.6608 0.947266 23.2283 1.65843 25.8973C2.04943 27.3692 3.20118 28.5295 4.6646 28.9233C7.31518 29.6373 17.9473 29.6373 17.9473 29.6373C17.9473 29.6373 28.5794 29.6373 31.2314 28.9233C32.6934 28.5295 33.8451 27.3707 34.2375 25.8973C34.9473 23.2283 34.9473 17.6608 34.9473 17.6608C34.9473 17.6608 34.9473 12.0933 34.2361 9.42433ZM14.4708 22.7169V12.6047L23.3561 17.6608L14.4708 22.7169Z"
+                                fill="white"></path>
+                        </svg></a></li>
+    
+                <li><a target="_blank" href="https://www.instagram.com/naevis.smtown.official/"><svg width="36" height="36"
+                            viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17.8945 4.77744C22.1665 4.77744 22.6732 4.79344 24.3599 4.87077C26.1039 4.95078 27.8999 5.34811 29.1705 6.61877C30.4532 7.90144 30.8385 9.68011 30.9185 11.4294C30.9959 13.1161 31.0119 13.6228 31.0119 17.8948C31.0119 22.1668 30.9959 22.6734 30.9185 24.3601C30.8399 26.0948 30.4332 27.9081 29.1705 29.1708C27.8879 30.4534 26.1105 30.8388 24.3599 30.9188C22.6732 30.9961 22.1665 31.0121 17.8945 31.0121C13.6225 31.0121 13.1159 30.9961 11.4292 30.9188C9.70786 30.8401 7.87053 30.4241 6.61853 29.1708C5.34253 27.8948 4.95053 26.0988 4.87053 24.3601C4.7932 22.6734 4.7772 22.1668 4.7772 17.8948C4.7772 13.6228 4.7932 13.1161 4.87053 11.4294C4.9492 9.70144 5.35986 7.87744 6.61853 6.61877C7.89853 5.33877 9.68386 4.95078 11.4292 4.87077C13.1159 4.79344 13.6225 4.77744 17.8945 4.77744ZM17.8945 1.89478C13.5492 1.89478 13.0039 1.91344 11.2972 1.99078C8.82386 2.10411 6.36786 2.79211 4.57986 4.58011C2.7852 6.37477 2.10386 8.82544 1.99053 11.2974C1.9132 13.0041 1.89453 13.5494 1.89453 17.8948C1.89453 22.2401 1.9132 22.7854 1.99053 24.4921C2.10386 26.9628 2.79453 29.4254 4.57986 31.2094C6.3732 33.0028 8.82786 33.6854 11.2972 33.7988C13.0039 33.8761 13.5492 33.8948 17.8945 33.8948C22.2399 33.8948 22.7852 33.8761 24.4919 33.7988C26.9639 33.6854 29.4225 32.9961 31.2092 31.2094C33.0052 29.4134 33.6852 26.9641 33.7985 24.4921C33.8759 22.7854 33.8945 22.2401 33.8945 17.8948C33.8945 13.5494 33.8759 13.0041 33.7985 11.2974C33.6852 8.82411 32.9959 6.36677 31.2092 4.58011C29.4185 2.78944 26.9572 2.10278 24.4919 1.99078C22.7852 1.91344 22.2399 1.89478 17.8945 1.89478Z"
+                                fill="white"></path>
+                            <path
+                                d="M17.6896 9.47363C13.1523 9.47363 9.47363 13.1523 9.47363 17.6896C9.47363 22.227 13.1523 25.9056 17.6896 25.9056C22.227 25.9056 25.9056 22.227 25.9056 17.6896C25.9056 13.1523 22.227 9.47363 17.6896 9.47363ZM17.6896 23.023C14.7443 23.023 12.3563 20.635 12.3563 17.6896C12.3563 14.7443 14.7443 12.3563 17.6896 12.3563C20.635 12.3563 23.023 14.7443 23.023 17.6896C23.023 20.635 20.635 23.023 17.6896 23.023Z"
+                                fill="white"></path>
+                            <path
+                                d="M26.5513 11.4191C27.6117 11.4191 28.4713 10.5595 28.4713 9.4991C28.4713 8.43871 27.6117 7.5791 26.5513 7.5791C25.491 7.5791 24.6313 8.43871 24.6313 9.4991C24.6313 10.5595 25.491 11.4191 26.5513 11.4191Z"
+                                fill="white"></path>
+                        </svg></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/naevis.official"><svg width="36" height="36"
+                            viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#fff"
+                                d="M34 18c0-8.836-7.163-16-16-16C9.164 2 2 9.164 2 18c0 7.503 5.166 13.8 12.135 15.529v-10.64h-3.3V18h3.3v-2.107c0-5.446 2.465-7.97 7.811-7.97 1.014 0 2.763.2 3.479.398v4.432c-.378-.04-1.034-.06-1.849-.06-2.623 0-3.637.994-3.637 3.578V18h5.226l-.898 4.89H19.94v10.993C27.862 32.926 34.001 26.18 34.001 18H34Z">
+                            </path>
+                        </svg></a></li>
+                <li><a target="_blank" href="https://www.tiktok.com/@naevis.smtown"><svg width="36" height="36"
+                            viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M31 15.333C28.3426 15.333 25.879 14.478 23.8689 13.0254V23.5071C23.8689 28.7423 19.6362 33 14.4344 33C12.4243 33 10.5595 32.3625 9.02771 31.2799C6.59518 29.5611 5 26.7185 5 23.5071C5 18.2719 9.2327 14.013 14.4357 14.013C14.868 14.013 15.2904 14.0492 15.7066 14.1055V15.3268V19.3707C15.3041 19.2444 14.8792 19.1707 14.4357 19.1707C12.0603 19.1707 10.1272 21.1158 10.1272 23.5071C10.1272 25.1722 11.0664 26.6185 12.438 27.3448C13.0356 27.661 13.7151 27.8423 14.4369 27.8423C16.7576 27.8423 18.651 25.9847 18.738 23.6696L18.7417 3H23.8676C23.8676 3.44752 23.9111 3.88379 23.9881 4.3088C24.3497 6.27389 25.5088 7.96021 27.1152 9.014C28.2333 9.74778 29.5676 10.1765 30.9988 10.1765L31 15.333Z"
+                                fill="white"></path>
+                        </svg></a></li>
+                <li><a target="_blank" href="https://x.com/naevisSMTOWN"><svg width="36" height="36" viewBox="0 0 36 36"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.6267 4H31.2267L21.1769 15.4867L33 31.1171H23.7423L16.4919 21.6371L8.19545 31.1171H3.59232L14.3416 18.831L3 4H12.4921L19.0462 12.6648L26.6267 4ZM25.0121 28.3636H27.5612L11.1072 6.609H8.37205L25.0121 28.3636Z"
+                                fill="white"></path>
+                        </svg></a></li>
+            </ul>
+        </nav>
+        <div class="head_btn">
+            <span></span>
+            <span></span>
+        </div>
     </header>
     <!-- 헤더 영역 끝 -->
     <!-- ---------------------------------------------------------------------------------------- -->
@@ -95,21 +103,21 @@
                 <ul class="swiper-wrapper">
                     <li class="swiper-slide">
                         <a target="_blank" href="https://www.youtube.com/watch?v=iVw5CIgLhVM">
-                            <video autoplay loop muted>
+                            <video autoplay loop muted playsinline preload="none">
                                 <source src="./video/main_video_01.mp4" type="video/mp4">
                             </video>
                         </a>
                     </li>
                     <li class="swiper-slide">
                         <a target="_blank" href="https://www.youtube.com/watch?v=5oWtjxsC0UQ">
-                            <video autoplay loop muted>
+                            <video autoplay loop muted playsinline preload="none">
                                 <source src="./video/main_video_pc_02.mp4" type="video/mp4">
                             </video>
                         </a>
                     </li>
                     <li class="swiper-slide">
                         <a target="_blank" href="https://www.youtube.com/watch?v=wX3Rf16XZiw">
-                            <video autoplay loop muted>
+                            <video autoplay loop muted playsinline preload="none">
                                 <source src="./video/main_video_pc_03.mp4" type="video/mp4">
                             </video>
                         </a>
@@ -137,14 +145,14 @@
                                 여러가지 모습으로 변화하는 플렉서블 캐릭터로 활동할 예정이다.
                             </p>
                             <p class="eg">
-                                Emerging from the Digital World (KWANGYA), nævis, the<br>
-                                AEI(Artificial Emotional Intelligence)<br>artist, steps into the Real<br>
+                                Emerging from the Digital World (KWANGYA), nævis, the
+                                AEI(Artificial Emotional Intelligence)<br>artist, steps into the Real
                                 World in search of freedom.<br>
-                                nævis’s name, meaning "Cyber Navigator," reflects her<br>
-                                extraordinary ability to traverse seamlessly between the<br>
+                                nævis’s name, meaning "Cyber Navigator," reflects her
+                                extraordinary ability to traverse seamlessly between the
                                 realms of reality and the digital expanse.<br>
-                                With the power to navigate through screens and embody a<br>
-                                multitude of forms, nævis is poised to enchant as a dynamic<br>
+                                With the power to navigate through screens and embody a
+                                multitude of forms, nævis is poised to enchant as a dynamic
                                 and ever-evolving presence, bridging two worlds.
                             </p>
                         </li>
@@ -158,59 +166,77 @@
                                 以灵活多样的形象开展活动。
                             </p>
                             <p class="eg">
-                                Emerging from the Digital World (KWANGYA), nævis, the<br>
-                                AEI(Artificial Emotional Intelligence) artist, steps into the Real<br>
+                                Emerging from the Digital World (KWANGYA), nævis, the
+                                AEI(Artificial Emotional Intelligence)<br>artist, steps into the Real
                                 World in search of freedom.<br>
-                                nævis’s name, meaning "Cyber Navigator," reflects her<br>
-                                extraordinary ability to traverse seamlessly between the<br>
+                                nævis’s name, meaning "Cyber Navigator," reflects her
+                                extraordinary ability to traverse seamlessly between the
                                 realms of reality and the digital expanse.<br>
-                                With the power to navigate through screens and embody a<br>
-                                multitude of forms, nævis is poised to enchant as a dynamic<br>
+                                With the power to navigate through screens and embody a
+                                multitude of forms, nævis is poised to enchant as a dynamic
                                 and ever-evolving presence, bridging two worlds.
                             </p>
                         </li>
                         <li class="content">
                             <p class="jpn">
                                 デジタルワールド(KWANGYA)から生まれ、<br>
-                                自由を求めてリアルワールドに来たAEI(人工感情知能 Artificial Emotional<br>
+                                自由を求めてリアルワールドに来たAEI(人工感情知能 Artificial<br class="mo_only">Emotional<br class="pc_only">
                                 Intelligence)アーティスト、nævis(ナイビス)。<br>
-                                サイバー航海士(Cyber + Navigator)を意味する名前のようにスクリーン<br>
-                                を通してリアルワールドとデジタル空間を自由に移動しながら、<br>
+                                サイバー航海士(Cyber + Navigator)を意味する名前のように<br class="mo_only">スクリーン<br class="pc_only">
+                                を通してリアルワールドとデジタル空間を自由に移動しながら、<br class="pc_only">
                                 多様な姿で変化するフレキシブル・キャラクターとして活動する予定。
                             </p>
                             <p class="eg">
-                                Emerging from the Digital World (KWANGYA), nævis, the<br>
-                                AEI(Artificial Emotional Intelligence)<br>artist, steps into the Real<br>
+                                Emerging from the Digital World (KWANGYA), nævis, the
+                                AEI(Artificial Emotional Intelligence)<br>artist, steps into the Real
                                 World in search of freedom.<br>
-                                nævis’s name, meaning "Cyber Navigator," reflects her<br>
-                                extraordinary ability to traverse seamlessly between the<br>
+                                nævis’s name, meaning "Cyber Navigator," reflects her
+                                extraordinary ability to traverse seamlessly between the
                                 realms of reality and the digital expanse.<br>
-                                With the power to navigate through screens and embody a<br>
-                                multitude of forms, nævis is poised to enchant as a dynamic<br>
+                                With the power to navigate through screens and embody a
+                                multitude of forms, nævis is poised to enchant as a dynamic
                                 and ever-evolving presence, bridging two worlds.
                             </p>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div id="profile_area" class="canvas_wrap">
-                <div class="canvas_box">
-                    <canvas id="canvas"></canvas>
-                </div>`
-                <div class="video_box">
-                    <video id="video" muted playsinline loop preload="none" style="display: none;">
-                        <source src="/assets/video/video_kv_pc.mp4" type="video/mp4">
-                    </video>
-                    <div class="sect02_btn_wrap">
-                        <button class="start_btn"><img src="./images/ico_play.png" alt="재생"></button>
-                        <button class="pause_btn"><img src="./images/ico_pause.png" alt="일시정지"></button>
+            <section class="kv scradar" id="Profile">
+                <div class="kv-container">
+                    <div class="kv-main">
+                        <div class="kv-main__textMotion kv-main__textMotion-top">
+                            <p class="kv-main__textMotion-top-tit">I’M</p>
+                            <p class="kv-main__textMotion-top-tit">nævis</p>
+                        </div>
+                        <div class="kv-main__textMotion kv-main__textMotion-bottom">
+                        <div class="kv-main__textMotion-bottomDeco">
+                            <img src="/assets/img/img_kv-main-2.png" alt="from">
+                        </div>
+                        <p class="kv-main__textMotion-bottom-tit">KWANGYA</p>
+                        </div>
+                        <div class="kv-main__img">
+                        <div class="kv-main__img-wrap">
+                            <canvas id="canvas" width="1022" height="806"></canvas>
+                        </div>
+                        <div class="kv-main__video">
+                            <video class="pc_only" poster="/assets/img/kv/img_sq_pc_00166.webp" muted playsinline loop preload="none">
+                            <source src="/assets/video/video_kv_pc.mp4" type="video/mp4">
+                            </video>
+                            <video class="mo_only" poster="/assets/img/kv/img_sq_mo_00166.webp" muted playsinline loop preload="none">
+                            <source src="/assets/video/video_kv_mo.mp4" type="video/mp4">
+                            </video>
+                            <button class="c-btn--pause">
+                            <span class="s-hide">Pause</span>
+                            </button>
+                        </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </section>
         <section class="sect_03 group">
             <div class="group_img_pc"><img src="./images/group_img_pc.png" alt="나이비스 그룹 이미지"></div>
-            <div class="group_img_mo"><img src="./images/group_img_mo.png" alt="나이비스 그룹 이미지"></div>
+            <div class="group_img_mo mo_only"><img src="./images/group_img_mo2.png" alt="나이비스 그룹 이미지"></div>
             <div class="video" id="video_area">
                 <div class="top_video">
                     <div class="prev_img"><img src="./images/video_prev.jpg"><button id="video_play_btn"><img src="./images/ico_play.png" alt="재생하기"></button></div>
@@ -224,18 +250,18 @@
                     <div class="language">
                         <ul class="contents">
                             <li class="content now">
-                                데뷔곡 ‘Done’은 나이비스가 광야에서의 이야기를 마치고(Done)
-                                리얼월드에서의 흥미로운 서사의 시작을 알리며
+                                데뷔곡 ‘Done’은 나이비스가 광야에서의 이야기를 마치고(Done)<br>
+                                리얼월드에서의 흥미로운 서사의 시작을 알리며<br>
                                 자신의 세계를 향해 나가는 첫걸음이 담긴 신호탄이다.
                             </li>
-                            <li class="content">
-                                出道曲《Done》为nævis在KWANGYA的经历画上句号,
-                                并开启以现实世界为舞台的精彩叙事。
+                            <li class="content" style="font-weight: 400;">
+                                出道曲《Done》为nævis在KWANGYA的经历画上句号,<br>
+                                并开启以现实世界为舞台的精彩叙事<br>
                                 该曲也标志着nævis由此迈向属于自己的世界。
                             </li>
                             <li class="content">
-                                デビュー曲「Done」は、KWANGYAでのストーリーを終えた(Done)
-                                nævisのリアルワールドでの新しい物語の始まりと、
+                                デビュー曲「Done」は、KWANGYAでのストーリーを終えた(Done)<br>
+                                nævisのリアルワールドでの新しい物語の始まりと<br>
                                 自分の世界への第一歩を描いた曲である
                             </li>
                         </ul>
@@ -261,7 +287,7 @@
                     <a class="sns_box" target="_blank" href="https://www.instagram.com/p/DByGPC2S7ZO/">
                         <div class="photo"><img src="./images/sns_01.png"></div>
                         <div class="txt_box">
-                            <h3>𝒏æ𝒗𝒊𝒔 𝒊𝒏 𝑹𝑬𝑨𝑳 𝑾𝑶𝑹𝑳𝑫<br>'What a wonderful REAL WORLD'</h3>
+                            <h3><span>𝒏æ𝒗𝒊𝒔 𝒊𝒏 𝑹𝑬𝑨𝑳 𝑾𝑶𝑹𝑳𝑫<br class="pc_only">'What a wonderful REAL WORLD'</span></h3>
                             <p class="icon"><img src="./images/ico_sns-ig.svg" alt="인스타그램"></p>
                         </div>
                     </a>
@@ -269,7 +295,7 @@
                     <a class="sns_box" target="_blank" href="https://www.instagram.com/p/DBs7FmvJ40Q/">
                         <div class="photo"><img src="./images/sns_02.png"></div>
                         <div class="txt_box">
-                            <h3>𝒏æ𝒗𝒊𝒔 𝒊𝒏 𝑹𝑬𝑨𝑳 𝑾𝑶𝑹𝑳𝑫<br>'#notd : nævis of the day'</h3>
+                            <h3><span>𝒏æ𝒗𝒊𝒔 𝒊𝒏 𝑹𝑬𝑨𝑳 𝑾𝑶𝑹𝑳𝑫<br class="pc_only">'#notd : nævis of the day'</span></h3>
                             <p class="icon"><img src="./images/ico_sns-ig.svg" alt="인스타그램"></p>
                         </div>
                     </a>
@@ -277,7 +303,7 @@
                     <a class="sns_box" target="_blank" href="https://www.instagram.com/p/DBgJKv_pH49/">
                         <div class="photo"><img src="./images/sns_03.png"></div>
                         <div class="txt_box">
-                            <h3>𝒏æ𝒗𝒊𝒔 𝒊𝒏 𝑹𝑬𝑨𝑳 𝑾𝑶𝑹𝑳𝑫 'Taste, it's me'</h3>
+                            <h3><span>𝒏æ𝒗𝒊𝒔 𝒊𝒏 𝑹𝑬𝑨𝑳 𝑾𝑶𝑹𝑳𝑫 'Taste, it's me'</span></h3>
                             <p class="icon"><img src="./images/ico_sns-ig.svg" alt="인스타그램"></p>
                         </div>
                     </a>
@@ -286,7 +312,7 @@
                         href="https://www.instagram.com/reel/DBa8L_ap7yF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">
                         <div class="photo"><img src="./images/sns_04.png"></div>
                         <div class="txt_box">
-                            <h3>𝒏æ𝒗𝒊𝒔 𝒊𝒏 𝑹𝑬𝑨𝑳 𝑾𝑶𝑹𝑳𝑫<br>'Play with nævis'</h3>
+                            <h3><span>𝒏æ𝒗𝒊𝒔 𝒊𝒏 𝑹𝑬𝑨𝑳 𝑾𝑶𝑹𝑳𝑫<br class="pc_only">'Play with nævis'</span></h3>
                             <p class="icon"><img src="./images/ico_sns-ig.svg" alt="인스타그램"></p>
                         </div>
                     </a>
@@ -295,7 +321,7 @@
                         href="https://www.youtube.com/watch?v=9yM2FlFdJ5o&feature=youtu.be">
                         <div class="photo"><img src="./images/sns_05.png"></div>
                         <div class="txt_box">
-                            <h3>💛 nævis to meet you 💙 우리 친구할까? 😉<br>| Let's be friends! 👯‍♀️</h3>
+                            <h3><span>💛 nævis to meet you 💙 우리 친구할까? 😉<br class="pc_only">| Let's be friends! 👯‍♀️</span></h3>
                             <p class="icon"><img src="./images/ico_sns-yt.svg" alt="유튜브"></p>
                         </div>
                     </a>
@@ -304,7 +330,7 @@
                         href="https://www.instagram.com/reel/DAxtpthJpPm/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">
                         <div class="photo"><img src="./images/sns_06.png"></div>
                         <div class="txt_box">
-                            <h3>step-up nævis : 짜릿한(?) 커피의 맛 <br>| A thrilling(?) taste of coffee 🤧</h3>
+                            <h3><span>step-up nævis : 짜릿한(?) 커피의 맛 <br class="pc_only">| A thrilling(?) taste of coffee 🤧</span></h3>
                             <p class="icon"><img src="./images/ico_sns-ig.svg" alt="인스타그램"></p>
                         </div>
                     </a>
@@ -313,7 +339,7 @@
                         href="https://www.tiktok.com/@naevis.smtown/video/7419523621573479688?is_from_webapp=1&web_id=7402552871730513426">
                         <div class="photo"><img src="./images/sns_07.png"></div>
                         <div class="txt_box">
-                            <h3>𝑳𝒊𝒂𝒓 〰️ 𝑳𝒊𝒂𝒓 〰️ 🫱 #Done with #유우시</h3>
+                            <h3><span>𝑳𝒊𝒂𝒓 〰️ 𝑳𝒊𝒂𝒓 〰️ 🫱 #Done with #유우시</span></h3>
                             <p class="icon"><img src="./images/ico_sns-tt.svg" alt="틱톡"></p>
                         </div>
                     </a>
@@ -325,9 +351,10 @@
                     <a class="soon_box">
                         <p class="txt">Coming Soon</p>
                     </a>
-                </div>
-                <button id="view_more_sns_btn"><span>VIEW_MORE</span><img src="./images/ico_arrow-down.svg"
+                    <button id="view_more_sns_btn"><span>VIEW_MORE</span><img src="./images/ico_arrow-down.svg"
                         alt="더보기"></button>
+                </div>
+                
             </div>
         </section>
         <section class="sect_06 visuals" id="visual_area">
@@ -372,7 +399,7 @@
                     <!-- 6 page -->
                     <div class="visual_box" target="_blank" href=""><img class="raw_img" src="./images/visuals_31.jpg"></div>
                     <a class="soon_box"><p class="txt">Coming Soon</p></a>
-                    <a class="soon_box"><p class="txt">Coming Soon</p></a>
+                    <a class="soon_box pc_only"><p class="txt">Coming Soon</p></a>
                 </div>
                 <button id="view_more_visual_btn"><span>VIEW_MORE</span><img src="./images/ico_arrow-down.svg"
                         alt="더보기"></button>
@@ -467,18 +494,19 @@
             </div>
         </section>
         <div class="floating_txt">
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
-            <p><img style="margin-right: 0;" src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+            <div class="floating_txt_wrapper">
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+                <p><img src="./images/logo_footer_naevis.svg" alt="naevis is coming to the real world"></p>
+            </div>
         </div>
     </main>
     <!-- 메인 영역 끝 -->
@@ -496,23 +524,71 @@
             <div class="footer_logo"><img src="./images/logo_footer_sm.png" alt="SM entertainment"></div>
             <dl class="contact">
                 <dt>CONTACT US</dt>
-                <dd>business_contact<br>@smtown.com</dd>
+                <dd><a href="mailto:business_contact@smtown.com">business_contact<br>@smtown.com</a></dd>
             </dl>
             <address><span class="kor">서울특별시 성동구 왕십리로<br>83-21 에스엠엔터테인먼트</span><span class="eng">83-21, WANGSIMNI-RO,<br>SEONGDONG-GU,<br>SEOUL, REPUBLIC OF<br>KOREA</span></address>
         </div>
         <p class="copyright">
             <em>©2024 SM ENTERTAINMENT ALL RIGHTS RESERVED</em>
-            ©2024 SM Entertainment. All rights reserved. 이 웹사이트의 모든 콘텐츠(텍스트, 이미지, 비디오, 오디오 및 기타 자료)는 저작권 보호를 받으며, SM
-            Entertainment 또는 해당 저작권 소유자의 사전 서면 동의 없이 복제, 배포, 전송, 전시 또는 상업적으로 사용할 수 없습니다. 모든 상표는 해당 소유자의 자산입니다.<br><br>
-            ©2024 SM Entertainment. All rights reserved. All content on this website (text, images, videos, audio, and
-            other materials) is protected by copyright and may not be reproduced, distributed, transmitted, displayed,
-            or commercially exploited without the prior written consent of
-            SM Entertainment or the respective copyright owner. All trademarks are the property of their respective
-            owners.
+            <span>©2024 SM Entertainment. All rights reserved. 이 웹사이트의 모든 콘텐츠(텍스트, 이미지, 비디오, 오디오 및 기타 자료)는 저작권 보호를 받으며, SM
+                Entertainment 또는 해당 저작권 소유자의 사전 서면 동의 없이 복제, 배포, 전송, 전시 또는 상업적으로 사용할 수 없습니다. 모든 상표는 해당 소유자의 자산입니다.<br><br>
+                ©2024 SM Entertainment. All rights reserved. All content on this website (text, images, videos, audio, and
+                other materials) is protected by copyright and may not be reproduced, distributed, transmitted, displayed,
+                or commercially exploited without the prior written consent of
+                SM Entertainment or the respective copyright owner. All trademarks are the property of their respective
+                owners.</span>
         </p>
     </footer>
 
     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const header = document.querySelector('header');
+            const headBtn = document.querySelector('.head_btn');
+
+            function checkScreenSize() {
+                if (window.innerWidth <= 768) {
+                    header.classList.add('phone');
+                } else {
+                    header.classList.remove('phone');
+                    header.classList.remove('show'); 
+                }
+            }
+
+            window.addEventListener('resize', checkScreenSize);
+            checkScreenSize(); 
+
+            headBtn.addEventListener('click', function () {
+                if (header.classList.contains('phone')) {
+                    header.classList.toggle('show');
+                }
+            });
+        });
+
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const wrapper = document.querySelector('.floating_txt_wrapper');
+            let translateX = 0;
+
+            function animateText() {
+                translateX -= 0.9; 
+                
+                if (translateX <= -wrapper.scrollWidth / 2) {
+                translateX = 0;
+                }
+
+                wrapper.style.transform = `translateX(${translateX}px)`;
+                
+                requestAnimationFrame(animateText);
+            }
+
+            const clone = wrapper.cloneNode(true);
+            wrapper.parentElement.appendChild(clone);
+            
+            animateText();
+            });
+
+
+
         document.addEventListener('DOMContentLoaded', () => {
         const txtProgress = document.querySelector('.txt_progress');
         const sectIntro = document.querySelector('.sect_00.intro');

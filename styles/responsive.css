@@ -1,0 +1,817 @@
+/* 769px ~ */
+@media (min-width: 769px) {
+    /* mo_only 가리기 */
+    .mo_only {display: none !important;}
+
+    /* sect 03 */
+    body main .sect_03 .group_img_pc {
+        display: block;
+    }
+
+    body main .sect_03 .top_video {
+        height: 870rem; border-radius: 30rem;
+    }
+
+
+
+    body main .sect_03 .btm_details {
+        display: flex; padding: 52rem 40rem 10rem;
+        margin: 0 -40rem;
+    }
+
+    body main .sect_03 .top_video .prev_img img {
+        transform: scale(1.02);
+    }
+
+    body main .sect_03 .video {
+        padding: 100rem 187rem 40rem;
+        border-top-left-radius: 0; border-top-right-radius: 0;
+    }
+
+    body main .sect_03 .btm_details .logo img {
+        width: 200rem; height: 100rem;
+    }
+
+    body main .sect_03 .btm_details .language {
+        width: 30%; margin-right: 12%;
+    }
+
+    body main .sect_03 .btm_details .language .contents .content {
+        font-family: Pretendard;
+        margin-right: 30rem;
+        letter-spacing: -.05em;
+        width: 594rem;
+        font-size: clamp(7px, 1vw, 18rem);
+        -webkit-text-size-adjust: 100%;
+        padding-top: 14px;
+        font-weight: 500;
+        line-height: clamp(12px, 2vw, 28rem);
+        color: #fff;
+        display: none;
+    }
+
+    body main .sect_03 .btm_details .language .tabs {
+        position: unset;
+    }
+
+    body main .sect_03 .btm_details .eg_txt {
+        width: 594rem;
+        font-size: clamp(7px, 1vw, 18rem);
+        -webkit-text-size-adjust: 100%;
+        padding-top: 14px;
+        font-weight: 500;
+        line-height: clamp(12px, 2vw, 26rem);
+        color: #fff;
+        font-family: Acumin Pro, sans-serif;
+    }
+
+    body main .sect_03 .btm_details .language .tabs .tab {
+        padding: 11rem 22rem 10rem; font-size: 14rem;
+    }
+
+    body main .sect_05 .sns_container .sns_wrap {
+        padding: 0 40rem; margin-top: 120rem;
+    }
+
+    /* sect05 - sns */
+    body main .sect_05 {
+        padding: 200rem 0 252rem;
+    }
+
+    body main .sect_05 h2 {
+        font-size: 210rem;
+        line-height: 1;
+        letter-spacing: -10.5rem;
+    }
+
+    body main .sect_05 .sns_container .sns_wrap .sns_box {
+        width: calc((100% - 20px) / 3);
+    }
+    body main .sect_05 .sns_container .sns_wrap .sns_box .txt_box h3 span {
+        font-size: 26rem; line-height: 36rem;
+        letter-spacing: -.06em;
+    }
+
+    body main .sect_05 .sns_container .sns_wrap .sns_box .txt_box h3 {
+        width: 472rem; height: 80rem; bottom: 20rem; left: 30rem;
+    }
+
+    body main .sect_05 .sns_container .sns_wrap .sns_box .txt_box .icon {
+        width: 60rem; height: 60rem; bottom: 30rem; right: 30rem; padding: 13.63rem;
+    }
+
+    body main .sect_05 .sns_container #view_more_sns_btn span {
+        margin-right: 10rem; font-size: 26rem; line-height: 32rem;
+    }
+
+    body main .sect_05 .sns_container #view_more_sns_btn img {
+        width: 34rem;
+        height: 34rem;
+    }
+
+    body main .sect_05 .sns_container #view_more_sns_btn {
+        padding: 32rem 22rem; border-radius: 30rem;
+    }
+
+    body main .sect_05 .sns_container .sns_wrap .soon_box .txt {
+        font-size: 30rem;
+    }
+
+    /* sect 06 - visuals */
+
+    body main .sect_06 {
+        padding: 200rem 0 252rem;
+    }
+
+    body main .sect_06 h2 {
+        font-size: 210rem; line-height: 1; letter-spacing: -10.5rem;
+        padding: 0 40rem;
+    }
+
+    body main .sect_06 .visual_container {
+        padding: 0 40rem; margin-top: 120rem;
+    }
+
+    body main .sect_06 .visual_container .visual_wrap .visual_box {
+        height: 454rem; border-radius: 30rem;
+    }
+
+    body main .sect_06 .visual_container .visual_wrap {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    body main .sect_06 .visual_container #view_more_visual_btn {
+        padding: 32rem 22rem; border-radius: 30rem;
+    }
+    
+    body main .sect_06 .visual_container #view_more_visual_btn span {
+        margin-right: 10rem; font-size: 26rem; line-height: 32rem;
+    }
+
+    body main .sect_06 .visual_container #view_more_visual_btn img {
+        width: 34rem;
+        height: 34rem;
+    }
+
+
+
+    /* sect 07 */
+
+    body main .sect_07 {
+        background: url(../images/history_pc_bg.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 1244rem;
+        background-color: #000;
+    }
+
+    body main .sect_07 .text_container {
+        flex-direction: row;
+        padding: 153rem 40rem 200rem 60rem;
+        bottom: 0; top: unset;
+        background: linear-gradient(180deg, transparent 58.03%, #000 74.74%);
+    }
+
+    body main .sect_07 .text_container .center_language .tabs {
+        position: absolute; margin-bottom: 0;
+    }
+
+    body main .sect_07 .text_container .left_year {
+        width: 30%; margin-right: 30px; width: 488rem;
+    }
+
+    body main .sect_07 .text_container .center_language {
+        width: 35%;
+    }
+
+    body main .sect_07 .text_container .center_language .contents .content {
+        font-size: 18rem;
+        line-height: 28rem;
+    }
+
+    body main .sect_07 .text_container .center_language .tabs .tab {
+        padding: 11rem 22rem 10rem;
+    }
+
+    body main .sect_07 .text_container .right_eg {
+        width: 35%;
+        color: #ececec;
+        font-family: Pretendard_Variable;
+        font-size: 18rem;
+        font-weight: 500;
+        line-height: 28rem;
+        letter-spacing: -.05em;
+    }
+
+    /* sect 08 */
+
+    body main .sect_08 {
+        padding: 200rem 0;
+    }
+
+    body main .sect_08 h2 {
+        font-size: 210rem;
+        line-height: 1;
+        letter-spacing: -10.5rem;
+        padding: 0 40rem;
+    }
+
+    body main .sect_08 .swiper-container {
+        margin-top: 120rem;
+        padding: 0 40rem;
+    }
+
+    main .sect_08 .swiper-container .swiper-wrapper .swiper-slide:hover {
+        transform: translateY(-70px);
+    }
+
+    body main .sect_08 .swiper-container .swiper-wrapper .swiper-slide .photo img {
+        aspect-ratio: 440 / 586; border-radius: 28.49rem;
+    }
+
+    body main .sect_08 .swiper-container .swiper-wrapper .swiper-slide .photo {
+        margin-bottom: 0; transform: none;
+    }
+
+    body main .sect_08 .swiper-container .swiper-wrapper .swiper-slide .txt {
+        font-size: 32rem;
+        line-height: 42rem;
+        letter-spacing: -.055em;
+        transform: translateY(60rem) translateX(-4rem);
+        transition: all .32s;
+    }
+
+    body main .sect_08 .swiper-container .swiper-wrapper .swiper-slide .txt .num {
+        font-weight: 500;
+        font-size: 24rem;
+        line-height: 48rem;
+        letter-spacing: -1.44rem;
+        transform: translateY(-28rem) translateX(1rem);
+    }
+
+
+    /* floating txt */
+
+    body main .floating_txt .floating_txt_wrapper {
+        padding: 48rem 0 63rem;
+    }
+
+    body main .floating_txt .floating_txt_wrapper p img {
+        height: 48rem; width: max-content;
+    }
+
+}
+
+/* ~ 768px */
+
+@media screen and (max-width: 768px) {
+    /* pc only 가리기 */
+    .pc_only {display: none !important;}
+
+    /* 폰트 사이즈 기준 */
+    html {
+        font-size: 0.25641vw;
+    }
+    /* 헤더 영역 */
+    header {
+        height: 60rem;
+        padding: 0;
+    }
+
+    header.phone {
+        filter: invert(0);
+    }
+
+    header.phone.h_black .head_logo,
+    header.phone.h_black .head_btn {filter:invert(0.8);}
+
+    header.phone.show .head_logo,
+    header.phone.show .head_btn {filter: invert(0) !important;}
+
+    /* 로고 */
+    header .head_logo {
+        position: fixed; z-index: 10001;
+        top: 20rem; left: 20rem;
+    }
+    header .head_logo img {
+        width: 60rem;
+        height: 22rem;
+    }
+    /* 사이드바 */
+    header .head_nav {
+        position: fixed; right: -100%;
+        width: 100%; 
+        background: #47a6ff; height: 100vh;
+        top: 0; z-index: 10000;
+        padding: 140rem 20rem;
+        overflow: auto;
+    }
+    header.phone.show .head_nav {
+        right: 0;
+    }
+
+    header .gnb {
+        display: block;
+        position: unset; transform: translateX(0);
+    }
+    header .gnb li {
+        border-bottom: 2rem solid #fdff92;
+        padding: 21rem 0 6rem;
+        margin-right: 0;
+    }
+    header .gnb li:last-child {
+        padding-bottom: 0; border-bottom: 0;
+    }
+    header .gnb li a {
+        font-size: 50rem; color: #fdff92;
+        white-space: nowrap; letter-spacing: -.05em;
+        line-height: 50rem; font-weight: 500;
+    }
+
+    header .head_sns {
+        padding-top: 30rem; gap: 34rem;
+    }
+    
+    header.phone.show .head_sns {
+        position: unset;
+    }
+
+    header .head_btn {
+        display: flex;
+        flex-flow: column; justify-content: center;
+    }
+    header.show .head_btn span:first-child {
+        transform: translateY(9rem) rotate(45deg);
+    }
+    header.show .head_btn span:last-child {
+        transform: rotate(-45deg);
+    }
+
+
+    /* 섹션 1 */
+
+    main .sect_01 .swiper-container {
+        height: 86.4928909953vh;
+    }
+
+    main .sect_01 .swiper-container .swiper-pagination {
+        height: 46rem;
+        padding: 19rem 17rem;
+        gap: 14rem;
+    }
+
+    main .sect_01 .swiper-container .swiper-pagination .swiper-pagination-bullet {
+        width: 8rem;
+        height: 8rem;
+        margin: 0 !important;
+    }
+    main .sect_01 .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+        width: 28rem;
+        border-radius: 30rem;
+    }
+
+    /* 섹션 2 */
+
+    main .sect_02 {
+    }
+
+    main .sect_02 .txt_group {
+        display: block;
+        padding: 111rem 32rem 50rem 20rem;
+    }
+
+
+    main .sect_02 .txt_group h2 {
+        font-size: 48rem;
+        line-height: 52rem;
+    }
+
+    main .sect_02 .txt_group h2 img {
+        width: 132rem; margin: -10rem -4rem 0 4rem;
+        margin-bottom: 14rem;
+    }
+
+    main .sect_02 .txt_group .profile_info {
+        margin-top: 36rem;
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    
+    /* sect02 - 프로필 영역 */
+
+    main .sect_02 .txt_group .profile_info .tabs {
+        margin-bottom: 20rem;
+    }
+
+
+    main .sect_02 .txt_group .profile_info .tabs .tab {
+        padding: 11rem 22rem 8rem;
+    }
+
+    main .sect_02 .canvas_wrap {display: none;}
+
+
+    main .sect_02 .txt_group .profile_info .contents .content p {
+        font-weight: 500; font-size: 14rem;
+        line-height: 22rem; letter-spacing: -.05em;
+    }
+
+    main .sect_02 .txt_group .profile_info .contents .content p.eg {
+        margin-top: 16rem;
+        font-size: 14rem;
+        line-height: 18rem;
+        letter-spacing: 0;
+    }
+
+    .kv-main__textMotion-top {
+        left: 20rem;
+    }
+    .kv-main__textMotion-top-tit {
+        font-size: 104rem;
+        line-height: 106rem;
+    }
+    .kv-main__textMotion-top-tit+p {
+        margin-top: -20rem;
+        font-size: 128rem;
+        line-height: 106rem;
+    }
+
+    .kv-main__textMotion-bottom {
+        left: 20rem;
+    }
+
+    .kv-main__textMotion-bottomDeco {
+        margin-bottom: 8rem;
+    }
+
+    .kv-main__textMotion-bottomDeco img {
+        width: 112rem;
+        height: 46rem;
+    }
+
+    .kv-main__textMotion-bottom-tit {
+        font-size: 78rem;
+        line-height: 78rem;
+    }
+
+    .c-btn--pause {
+        width: 46rem;
+        height: 46rem;
+        right: 20rem;
+        bottom: 30rem;
+    }
+    
+
+    main .sect_03 .group_img_pc {display: none;}
+    main .sect_03 .group_img_mo {display: block;}
+    main .sect_03 .group_img_mo img {width: 100%;}
+
+    main .sect_03 .video {
+        padding: 0; margin-top: 30px;
+        border-top-left-radius: 40rem; border-top-right-radius: 40rem;
+    }
+
+    main .sect_03 .top_video {
+        height: 292rem;
+        border-radius: 24rem;
+    }
+
+    main .sect_03 .top_video .prev_img img {
+        transform: scale(1);
+    }
+
+    main .sect_03 .top_video .prev_img button {
+        width: 46rem; height: 46rem; 
+        bottom: 20rem; right: 20rem;
+    }
+
+    main .sect_03 .btm_details {
+        display: block;
+        padding: 30rem 20rem 100rem; margin: 0;
+        position: relative;
+    }
+
+    main .sect_03 .btm_details .logo {
+        margin-bottom: 30rem;
+    }
+
+    main .sect_03 .btm_details .logo img {
+        width: 120rem;
+        height: 60rem;
+    }
+
+    main .sect_03 .btm_details .eg_txt {
+        font-size: 14rem; line-height: 18rem;
+        font-family: Acumin Pro, sans-serif;
+    }
+
+    main .sect_03 .btm_details .language {
+        width: 100%; margin: 0;
+    }
+
+    main .sect_03 .btm_details .eg_txt {
+        width: 100%;
+    }
+    main .sect_03 .btm_details .language .contents .content {
+        margin-left: 0;
+        margin-bottom: 16rem;
+        font-size: 14rem;
+        line-height: 22rem;
+        width: 100%;
+        padding-top: 0;
+    }
+
+    main .sect_03 .btm_details .language .tabs {
+        position: absolute;
+        bottom: -80rem;
+    }
+
+    main .sect_03 .btm_details .language .tabs .tab {
+        padding: 11rem 22rem 8rem;
+        font-size: 14rem;
+    }
+
+
+    /* sect 05 - sns contents */
+
+    main .sect_05 {
+        padding: 100rem 0 20rem;
+    }
+
+    main .sect_05 h2 {
+        font-size: 48rem;
+        line-height: 52rem;
+        letter-spacing: -2.4rem;
+        padding: 0 20rem;
+    }
+    main .sect_05 .sns_container .sns_wrap {
+        padding: 0 20rem; margin-top: 36rem;
+    }
+
+    main .sect_05 .sns_container .sns_wrap .sns_box {
+        width: calc((100% - 10px) / 2);
+    }
+
+    main .sect_05 .sns_container .sns_wrap .sns_box .txt_box {
+    }
+
+    main .sect_05 .sns_container .sns_wrap .sns_box .txt_box .icon {
+        width: 30rem;
+        height: 30rem;
+        bottom: 10rem;
+        right: 10rem;
+        padding: 6.82rem;
+    }
+
+    main .sect_05 .sns_container .sns_wrap .sns_box .txt_box h3 {
+        width: 110rem;
+        height: 32rem;
+        bottom: 9rem;
+        left: 10rem;
+    }
+
+    main .sect_05 .sns_container .sns_wrap .sns_box .txt_box h3 span {
+        font-size: 11rem; line-height: 16rem; letter-spacing: -.04em;
+    }
+    main .sect_05 .sns_container #view_more_sns_btn {
+        padding: 21.5rem 0; border-radius: 18rem;
+    }
+
+    main .sect_05 .sns_container #view_more_sns_btn img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    main .sect_05 .sns_container #view_more_sns_btn span {
+        margin-right: 6rem; font-size: 18rem;
+        line-height: 17rem;
+    }
+    main .sect_05 .sns_container .sns_wrap .soon_box {
+        width: calc((100% - 10px) / 2);
+    }
+
+    main .sect_05 .sns_container .sns_wrap .soon_box .txt {
+        font-size: 12rem;
+    }
+    
+
+
+    /* sect06 -visuals */
+
+    main .sect_06 {padding: 100rem 0;}
+    main .sect_06 h2 {
+        font-size: 48rem; line-height: 52rem;
+        letter-spacing: -2.4rem; padding: 0 20rem;
+    }
+
+    main .sect_06 .visual_container {
+        padding: 0 20rem;
+        margin-top: 36rem;
+    }
+
+    main .sect_06 .visual_container .visual_wrap {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    main .sect_06 .visual_container .visual_wrap .visual_box {
+        height: 126rem;
+        border-radius: 18rem;
+    }
+
+    main .sect_06 .visual_container #view_more_visual_btn {
+        padding: 21.5rem;
+        border-radius: 18rem;
+    }
+
+    main .sect_06 .visual_container #view_more_visual_btn span {
+        margin-right: 6rem;
+        font-size: 18rem;
+        line-height: 17rem;
+    }
+
+    main .sect_06 .visual_container #view_more_visual_btn img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    main .sect_06 .visual_container .visual_wrap .soon_box {
+        height: 126rem;
+        border-radius: 18rem;
+    }
+
+    main .sect_06 .visual_container .visual_wrap .soon_box .txt {
+        font-size: 13rem;
+    }
+
+
+
+    /* sect07 - history */
+
+    main .sect_07 {
+        background: url(../images/history_mo_bg.png) no-repeat;
+        height: 1196rem; background-size: 100%;
+    }
+
+    main .sect_07 .text_container {
+        flex-direction: column;
+        justify-content: start;
+        padding: 0 20rem 100rem;
+        bottom: auto;
+        top: 389rem;
+        background: linear-gradient(0deg, #000, #000 88%, transparent);
+    }
+
+    main .sect_07 .text_container .left_year {
+        width: 100%;
+    }
+
+    main .sect_07 .text_container .center_language {
+        width: 100%;
+    }
+
+    main .sect_07 .text_container .center_language .tabs {
+        position: unset; margin-bottom: 20rem;
+    }
+
+    main .sect_07 .text_container .center_language .tabs .tab {
+        padding: 11rem 22rem 8rem;
+    }
+
+    main .sect_07 .text_container .center_language .contents .content {
+        font-size: 14rem;
+        line-height: 20rem;
+    }
+
+    main .sect_07 .text_container .right_eg {
+        font-weight: 500; font-size: 14rem; width: 100%;
+        line-height: 18rem;
+        margin-top: 20rem; font-family: Acumin Pro, sans-serif;
+        letter-spacing: 0;
+    }
+
+    /* sect08 story */
+
+    main .sect_08 {
+        padding: 80rem 0;
+    }
+
+    main .sect_08 h2 {
+        padding: 0 20rem;
+        font-size: 48rem;
+        line-height: 52rem;
+        letter-spacing: -2.4rem;
+    }
+
+    main .sect_08 .swiper-container {
+        margin-top: 36rem; padding: 0 20rem;
+    }
+
+    main .sect_08 .swiper-container .swiper-wrapper .swiper-slide .txt {
+        opacity: 1;
+        transition: none;
+        font-size: 18rem;
+        line-height: 28.49rem;
+        padding-left: 10rem;
+        padding-top: 2rem;
+        letter-spacing: .01em;
+        transform: none;
+    }
+
+    main .sect_08 .swiper-container .swiper-wrapper .swiper-slide .txt .num {
+        font-weight: 700;
+        font-size: 12rem;
+        line-height: 28.49rem;
+        transform: translateY(-12rem) translateX(0);
+        margin-right: 2rem;
+        letter-spacing: 0;
+    }
+
+    main .sect_08 .swiper-container .swiper-wrapper .swiper-slide .photo {
+        transform: translateY(0) translateX(0);
+        margin-bottom: 14rem;
+    }
+    main .sect_08 .swiper-container .swiper-wrapper .swiper-slide .photo img {
+        aspect-ratio: 320 / 426;
+        border-radius: 28.49rem;
+    }
+
+    main .sect_08 .swiper-container .swiper-wrapper .swiper-slide {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .sect_08 .button_wrap {
+        margin-top: 40rem;
+        padding-right: 0;
+        gap: 22rem;
+    }
+
+    main .sect_08 .button_wrap div {
+        width: 54rem;
+    }
+    
+
+    main .sect_08 .swiper-container .swiper-wrapper .swiper-slide:hover {
+        transform: translateY(0);
+    }
+
+    /* floating_txt */
+
+    main .floating_txt .floating_txt_wrapper p {
+        margin-left: 50rem;
+        margin: 0 50rem;
+    }
+
+    main .floating_txt p img {
+        height: 30rem;
+    }
+
+    main .floating_txt .floating_txt_wrapper {
+        padding: 27rem 0 32rem;
+    }
+    
+    /* footer */
+
+    footer {padding: 30rem 20rem;}
+
+    footer .footer_sns > li a {
+        padding-bottom: 22rem;
+        font-size: 20rem;
+    }
+
+    footer .footer_sns > li::after {
+        width: 26rem;
+    }
+
+    footer .footer_info .footer_logo {
+        width: 90rem; aspect-ratio: 90/58;
+    }
+
+    footer .footer_sns > li a i {
+        width: 30rem;
+        margin-right: 18rem;
+    }
+    
+    footer .copyright {
+        font-size: 12rem;
+        line-height: 18rem;
+        letter-spacing: .28rem;
+        padding: 0;
+        text-align: center;
+    }
+
+    footer .copyright em {
+        text-align: center;
+        margin-bottom: 24rem;
+        font-size: 14rem;
+    }
+
+    footer .footer_info .footer_logo {
+        width: 90rem;
+        aspect-ratio: 90 / 58;
+    }
+    
+}

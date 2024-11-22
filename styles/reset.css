@@ -63,7 +63,6 @@
 }
 
 
-
 @font-face {
     font-family: 'Ubuntu Mono';
     src: url('../font/UbuntuMono-Regular.ttf') format('truetype');
@@ -71,7 +70,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('../font/fonnts.com-Acumin_Pro.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 /* reset */
+html {font-size: 0.05208vw;}
+body {scroll-behavior: smooth;}
 html,body,* {box-sizing:border-box;}
 html,body,h1,h2,h3,h3,h4,h5,h6,
 p,em,strong,a,span,sup,sub,del,q,blockquote,code,

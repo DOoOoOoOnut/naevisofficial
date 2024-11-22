@@ -19,10 +19,16 @@ const sect_06_swiper = new Swiper('.sect_06 .visual_popup .swiper-container', {
 
 // 섹션 8
 const sect_08_swiper = new Swiper('.sect_08 .swiper-container', {
-    slidesPerView: 4.1,
+    slidesPerView: 1.2,
     spaceBetween: 10,
     navigation: {
         nextEl: '.sect_08 .button_wrap .swiper-button-next',
         prevEl: '.sect_08 .button_wrap .swiper-button-prev',
     },
+    breakpoints: {
+        769: {
+            slidesPerView: 4.1, 
+            spaceBetween: 10,
+        },
+    }
 });
